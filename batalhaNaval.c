@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    printf("Nível Novato - Posicionamento dos Navios\n");
-
+    
     int tabuleiro[5][5];
     for (int i = 0; i < 5; i++)
     {
@@ -41,7 +40,6 @@ int main()
     printf("Parte 3: (3,2)\n");
     printf("\n");
 
-    printf("Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal\n");
 
     int tabuleiro10x10[10][10];
     for (int i = 0; i < 10; i++)
@@ -94,7 +92,6 @@ int main()
     printf("Parte 4: (3,3)\n");
     printf("\n");
 
-    printf("Nível Mestre - Habilidades Especiais com Matrizes\n");
     
     int cone[3][5] = {0};
     for (int i = 0; i < 3; i++)
