@@ -1,36 +1,36 @@
 #include <stdio.h>
 int main()
 {
-    
+
     int tabuleiro[5][5];
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 5; j++)
         {
-            tabuleiro[i][j] = 0;      
-            printf("(%d,%d) ", i, j); 
+            tabuleiro[i][j] = 0;
+            printf("(%d,%d) ", i, j);
         }
         printf("\n");
     }
     printf("\n");
-    
-    tabuleiro[1][2] = 1; 
-    tabuleiro[2][2] = 1; 
-    
-    tabuleiro[3][0] = 2; 
-    tabuleiro[3][1] = 2; 
-    tabuleiro[3][2] = 2; 
-    
+
+    tabuleiro[1][2] = 1;
+    tabuleiro[2][2] = 1;
+
+    tabuleiro[3][0] = 2;
+    tabuleiro[3][1] = 2;
+    tabuleiro[3][2] = 2;
+
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 5; j++)
         {
-            printf("%d ", tabuleiro[i][j]); 
+            printf("%d ", tabuleiro[i][j]);
         }
         printf("\n");
     }
     printf("\n");
-    
+
     printf("Navio 1 (Vertical):\n");
     printf("Parte 1: (1,2)\n");
     printf("Parte 2: (2,2)\n");
@@ -40,7 +40,6 @@ int main()
     printf("Parte 3: (3,2)\n");
     printf("\n");
 
-
     int tabuleiro10x10[10][10];
     for (int i = 0; i < 10; i++)
     {
@@ -49,20 +48,20 @@ int main()
             tabuleiro10x10[i][j] = 0;
         }
     }
-    
-    tabuleiro10x10[1][1] = 3; 
-    tabuleiro10x10[1][2] = 3; 
-    tabuleiro10x10[2][2] = 3; 
-    tabuleiro10x10[4][5] = 3; 
-    tabuleiro10x10[5][5] = 3; 
-    tabuleiro10x10[6][5] = 3; 
-    tabuleiro10x10[7][7] = 3; 
-    tabuleiro10x10[8][8] = 3; 
-    tabuleiro10x10[3][0] = 3; 
-    tabuleiro10x10[3][1] = 3; 
-    tabuleiro10x10[3][2] = 3; 
-    tabuleiro10x10[3][3] = 3; 
-    
+
+    tabuleiro10x10[1][1] = 3;
+    tabuleiro10x10[1][2] = 3;
+    tabuleiro10x10[2][2] = 3;
+    tabuleiro10x10[4][5] = 3;
+    tabuleiro10x10[5][5] = 3;
+    tabuleiro10x10[6][5] = 3;
+    tabuleiro10x10[7][7] = 3;
+    tabuleiro10x10[8][8] = 3;
+    tabuleiro10x10[3][0] = 3;
+    tabuleiro10x10[3][1] = 3;
+    tabuleiro10x10[3][2] = 3;
+    tabuleiro10x10[3][3] = 3;
+
     printf("Tabuleiro 10x10:\n");
     for (int i = 0; i < 10; i++)
     {
@@ -73,7 +72,7 @@ int main()
         printf("\n");
     }
     printf("\n");
-    
+
     printf("Navio 1:\n");
     printf("Parte 1: (1,1)\n");
     printf("Parte 2: (1,2)\n");
@@ -92,7 +91,6 @@ int main()
     printf("Parte 4: (3,3)\n");
     printf("\n");
 
-    
     int cone[3][5] = {0};
     for (int i = 0; i < 3; i++)
     {
@@ -114,7 +112,7 @@ int main()
         printf("\n");
     }
     printf("\n");
-    
+
     int octaedro[6][5] = {0};
     for (int i = 0; i < 6; i++)
     {
@@ -138,7 +136,7 @@ int main()
         printf("\n");
     }
     printf("\n");
-    
+
     int cruz[5][5] = {0};
     for (int i = 0; i < 5; i++)
     {
